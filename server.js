@@ -126,6 +126,8 @@ app.use((req, res) => {
 
 
 
+
+
 // Start server after DB connection
 db.on('open', () => {
     app.listen(PORT, () => {
